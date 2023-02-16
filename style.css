@@ -13,10 +13,16 @@ body {
 .logo {
   position: absolute;
   display: flex;
-  margin-left: 10%;
   color: #6070ff;
   font-weight: 700;
+}
+
+ul li a {
   text-decoration: none;
+  color: #6070ff;
+  font-family: "Poppins";
+  font-size: 18px;
+  float: left;
 }
 
 .img-logo {
