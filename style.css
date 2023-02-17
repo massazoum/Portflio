@@ -85,7 +85,6 @@ h3 {
   gap: 10px;
   list-style-type: none;
 }
-/* today */
 
 .Works {
   display: flex;
@@ -94,6 +93,7 @@ h3 {
   padding: 0;
   width: 327px;
 }
+
 .first-works {
   display: flex;
   flex-direction: column;
@@ -101,6 +101,7 @@ h3 {
   margin-bottom: 20px;
   width: 327px;
 }
+
 .work-image {
   width: 295px;
   height: 220px;
@@ -111,20 +112,19 @@ h3 {
 .canopy {
   display: flex;
   gap: 22px;
-  /* 
-  justify-content: space-between; */
-  /* width: 120px; */
   height: 16px;
   margin-left: -35px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
 }
+
 .canopy-1 {
   list-style-type: none;
 }
+
 .canopy-2,
 .canopy-3 {
   opacity: 0.5;
@@ -225,11 +225,13 @@ h3 {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
+
 .list-one {
   display: flex;
 }
+
 .language-img {
   width: 48px;
   height: 48px;
