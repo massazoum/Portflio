@@ -5,6 +5,7 @@
 }
 
 body {
+  border: 0;
   margin: 0;
   padding: 0;
   font-family: "poppins", sans-serif;
@@ -84,9 +85,152 @@ h3 {
   gap: 10px;
   list-style-type: none;
 }
+/* today */
 
-@media (min-width: 375px) and (max-width: 768px) {
-  body {
-    background-color: white;
-  }
+.Works {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr;
+  padding: 0;
+  width: 327px;
+}
+.first-works {
+  display: flex;
+  flex-direction: column;
+  border: 0.2rem solid white;
+  margin-bottom: 20px;
+  width: 327px;
+}
+.work-image {
+  width: 295px;
+  height: 220px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.canopy {
+  display: flex;
+  gap: 22px;
+  /* 
+  justify-content: space-between; */
+  /* width: 120px; */
+  height: 16px;
+  margin-left: -35px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+.canopy-1 {
+  list-style-type: none;
+}
+.canopy-2,
+.canopy-3 {
+  opacity: 0.5;
+}
+
+.main-languages {
+  display: flex;
+  border-radius: 8px;
+  gap: 12px;
+  margin-left: -8px;
+  list-style-type: none;
+}
+
+.language {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border: 8px solid #ebebff;
+  border-radius: 10px;
+}
+
+.see {
+  width: 140px;
+  height: 52px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background: #fff;
+  border: 2px solid #396df2;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.aboutmyself {
+  width: 327px;
+  height: 101px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+}
+
+.my-resume {
+  padding: 10px;
+  border-radius: 5px;
+  color: #396df2;
+  border-color: #396df2;
+  background-color: white;
+}
+
+.aboutme-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  background: white;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.language-list {
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.language-list-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.languages-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.list-one {
+  display: flex;
+}
+.language-img {
+  width: 48px;
+  height: 48px;
 }
