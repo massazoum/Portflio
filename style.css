@@ -100,6 +100,7 @@ h3 {
   border: 0.2rem solid white;
   margin-bottom: 30px;
   width: 327px;
+  align-items: center;
 }
 
 .work-image {
@@ -132,10 +133,12 @@ h3 {
 
 .main-languages {
   display: flex;
+  border-radius: 16px;
   border-radius: 8px;
   gap: 12px;
   margin-left: -8px;
   list-style-type: none;
+  padding-left: 2px;
 }
 
 .language {
@@ -166,7 +169,7 @@ h3 {
   background: #fff;
   border: 2px solid #396df2;
   border-radius: 10px;
-  margin-left: 30px;
+  margin-left: -4px;
   margin-top: 10px;
   margin-bottom: 30px;
   cursor: pointer;
