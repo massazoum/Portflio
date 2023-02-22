@@ -76,18 +76,13 @@ h3 {
 }
 
 .icons {
-  list-style-type: none;
-  margin-left: -90px;
-  margin-bottom: -26px;
-  padding-top: 2px;
-  justify-content: flex-start;
-  width: 270px;
-  gap: 10px;
-  height: 72px;
   display: flex;
-  flex-direction: row;
-  padding-left: -12px;
-  margin-top: -12px;
+  gap: 12px;
+  margin-left: -8px;
+  margin-top: -8px;
+  list-style-type: none;
+  padding-left: 2px;
+  padding-top: 2px;
 }
 
 .Works {
@@ -201,17 +196,26 @@ h3 {
 }
 
 .my-resume {
-  width: 138px;
-  padding: 10px;
-  border-radius: 5px;
+  width: 150px;
+  height: 52px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  align-items: flex-start;
   color: #396df2;
-  border-color: #396df2;
-  background-color: white;
-  margin-top: -20px;
+  background: #fff;
+  border: 2px solid #396df2;
+  border-radius: 10px;
+  margin-left: -5px;
+  padding-top: 10px;
+  cursor: pointer;
 }
 
 .aboutme-section {
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
   gap: 12px;
   width: 350px;
@@ -241,6 +245,7 @@ h3 {
   display: flex;
   align-items: center;
   color: #253858;
+  margin-left: -14%;
 }
 
 .list-one {
@@ -258,14 +263,14 @@ h3 {
   gap: 12px;
   padding-left: 8px;
   color: #253858;
+  margin-left: -4%;
 }
 
 .language-img {
   width: 48px;
   height: 48px;
-  padding-left: 12px;
   padding-top: 9px;
-  padding-bottom: 9px;
+  padding-left: 12px;
 }
 
 .section-one {
@@ -332,4 +337,15 @@ h3 {
 
 .union-one {
   margin-right: 30px;
+}
+.frame-skill {
+  margin-left: -14%;
+}
+.Separator {
+  margin-left: -20%;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  body {
+    font-family: "poppins", sans-serif;
+  }
 }
