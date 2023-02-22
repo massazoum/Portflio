@@ -338,12 +338,15 @@ h3 {
 .union-one {
   margin-right: 30px;
 }
+
 .frame-skill {
   margin-left: -14%;
 }
+
 .Separator {
   margin-left: -20%;
 }
+
 @media (min-width: 375px) and (max-width: 768px) {
   body {
     font-family: "poppins", sans-serif;
