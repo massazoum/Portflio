@@ -250,7 +250,8 @@ h3 {
 
 .list-one {
   display: flex;
-  width: 250px;
+  width: 310px;
+
   gap: 20px;
   background: #f7f7f9;
   border-radius: 8px;
@@ -351,4 +352,14 @@ h3 {
   body {
     font-family: "poppins", sans-serif;
   }
+}
+
+.see:hover {
+  background-color: rgb(107, 107, 238);
+  color: white;
+}
+
+.my-resume:hover {
+  background-color: blue;
+  color: white;
 }
