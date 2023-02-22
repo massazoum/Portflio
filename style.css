@@ -355,11 +355,11 @@ h3 {
 }
 
 .see:hover {
-  background-color: rgb(107, 107, 238);
+  background-color: rgb(68, 68, 241);
   color: white;
 }
 
 .my-resume:hover {
-  background-color: blue;
+  background-color: rgb(68, 68, 241);
   color: white;
 }
