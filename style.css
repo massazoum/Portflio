@@ -248,15 +248,6 @@ h3 {
   margin-left: -14%;
 }
 
-.list-one {
-  display: flex;
-  width: 310px;
-
-  gap: 20px;
-  background: #f7f7f9;
-  border-radius: 8px;
-}
-
 .numbers-languages {
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -265,6 +256,13 @@ h3 {
   padding-left: 8px;
   color: #253858;
   margin-left: -4%;
+}
+.list-one {
+  display: flex;
+  width: 310px;
+  gap: 20px;
+  background: #f7f7f9;
+  border-radius: 8px;
 }
 
 .language-img {
