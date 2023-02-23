@@ -5,6 +5,7 @@
 }
 
 body {
+  border: 0;
   margin: 0;
   padding: 0;
   font-family: "poppins", sans-serif;
@@ -66,27 +67,318 @@ ul li a {
 }
 
 h3 {
-  width: 117px;
-  height: 24px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  padding-top: 12px;
   color: #7f8cff;
-  text-decoration: none;
 }
 
 .icons {
   display: flex;
-  justify-content: flex-start;
-  margin-left: -40px;
-  gap: 10px;
+  gap: 12px;
+  margin-left: -8px;
+  margin-top: -8px;
   list-style-type: none;
+  padding-left: 2px;
+  padding-top: 2px;
+}
+
+.Works {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 327px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.first-works {
+  display: flex;
+  flex-direction: column;
+  border: 0.2rem solid white;
+  margin-bottom: 30px;
+  width: 327px;
+  align-items: center;
+}
+
+.work-image {
+  width: 100%;
+  height: 220px;
+}
+
+.canopy {
+  display: flex;
+  gap: 22px;
+  height: 16px;
+  margin-left: -35px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.canopy-1 {
+  list-style-type: none;
+}
+
+.canopy-2,
+.canopy-3 {
+  opacity: 0.5;
+}
+
+.main-languages {
+  display: flex;
+  border-radius: 16px;
+  border-radius: 8px;
+  gap: 12px;
+  margin-left: -8px;
+  list-style-type: none;
+  padding-left: 2px;
+  color: #6070ff;
+}
+
+.language {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border: 8px solid #ebebff;
+  border-radius: 10px;
+}
+
+.see {
+  width: 140px;
+  height: 52px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background: #fff;
+  border: 2px solid #396df2;
+  border-radius: 10px;
+  margin-left: -4px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.main-section-about-myself {
+  padding-left: 24px;
+}
+
+.aboutmyself {
+  width: 327px;
+  height: 101px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  padding-top: 114px;
+  padding-right: 24px;
+  border-top-right-radius: 25px;
+}
+
+.my-resume {
+  width: 150px;
+  height: 52px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  align-items: flex-start;
+  color: #396df2;
+  background: #fff;
+  border: 2px solid #396df2;
+  border-radius: 10px;
+  margin-left: -5px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.aboutme-section {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12px;
+  width: 350px;
+  background: white;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin-top: 70px;
+  border-top-right-radius: 100px;
+  padding-left: 24px;
+}
+
+.language-list {
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.language-list-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.languages-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+  margin-left: -14%;
+}
+
+.numbers-languages {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 8px;
+  color: #253858;
+  margin-left: -4%;
+}
+
+.list-one {
+  display: flex;
+  width: 310px;
+  gap: 20px;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+.language-img {
+  width: 48px;
+  height: 48px;
+  padding-top: 9px;
+  padding-left: 12px;
+}
+
+.section-one {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.section-two {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.section-three {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.section-four {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  margin-left: 24px;
+  margin-right: -24px;
+}
+
+.text-on-about-me {
+  width: 327px;
+  height: 144px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.line {
+  width: 97%;
+  color: #dfe1e6;
+}
+
+.imag-union {
+  margin-right: 30px;
+}
+
+.union-one {
+  margin-right: 30px;
+}
+
+.frame-skill {
+  margin-left: -14%;
+}
+
+.Separator {
+  margin-left: -20%;
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
   body {
-    background-color: white;
+    font-family: "poppins", sans-serif;
   }
+}
+
+button.see:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+button.my-resume:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+button.see:active {
+  background-color: #7f8cff;
+  color: white;
+}
+
+button.my-resume:active {
+  background-color: #7f8cff;
+  color: white;
+}
+
+button.see:disabled {
+  background-color: #c1c7d0;
+  color: #e5e5e5;
+}
+
+button.my-resume:disabled {
+  background-color: #c1c7d0;
+  color: #e5e5e5;
 }
