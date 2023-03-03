@@ -16,7 +16,16 @@ body {
   display: flex;
   color: #6070ff;
   font-weight: 700;
+  animation-name: change-color;
+  animation-duration: 4s;
 }
+
+@keyframes change-color {
+  from {background-color: red;}
+  to {background-color: yellow;
+}
+}
+
 
 ul li a {
   text-decoration: none;
@@ -53,6 +62,13 @@ ul li a {
   display: flex;
   align-items: center;
   color: #172b4d;
+  background: blue; 
+  transition: width 2s linear 1s;
+}
+
+.primary-text:hover {
+  width: 300px;
+}
 }
 
 .my-experience {
