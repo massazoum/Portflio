@@ -1,189 +1,181 @@
 <a name="readme-top"></a>
 
+<div align="center">
+
+  <h3><b>PERSONAL PORTFOLIO</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-  -- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Hello-microverse] <a name="Hello-microverse"></a>
+<!-- PROJECT DESCRIPTION -->
 
-**[setup and mobile first]** setup and mobile first projects for coding figma design to professional-looking code.
+# 📖 [PERSONAL PORTFOLIO] <a name="about-project"></a>
+
+> A "portfolio" HTML-5 & CSS3 repository built during the portal learning module.
+
+It is a show of my understanding of Gitflow, use of Linters, HTML5 semantics, CSS3 flexbox, grid and figma.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-  <summary>Javascript runtime environment</summary>
-  <ul>
-    <li><a href="https://nodejs.org/en/">Node JS</a></li>
-  </ul>
+- HTML-5
+- CSS3
+- Linters
+- Figma
 
-  <summary>Version control</summary>
+<details>
+  <summary>Client</summary>
   <ul>
-    <li><a href="github.com">Git Hub</a></li>
+    <li><a href="https://www.testim.io/blog/what-is-a-linter-heres-a-definition-and-quick-start-guide/">Linters</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
   </ul>
-</details
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Key features of the application.
+
+- **[Navigation bar]**
+- **[Header section - Introduction]**
+- **[Work Portfolio section - Project description]**
+- **[About Section - About Myself]**
+- **[Contact-me-Section - Contact-Form]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Added a link to my deployed project.
+
+- [Live Demo Link]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-Creating "setup and mobile first" project
-
-To get a local copy up and running, follow these steps.
+- To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
--A Git hub account
-<br>
--Node JS
-<br>
--Visual Studio Code or any other code editor of your preference
-<br>
--web browser
+- You only need a browser to run the html file in.
 
 ### Setup
 
-Clone this repository to your desired folder:<br>
-Advantages of Linters:<br>
+- Create a new folder to store the files in.
 
-1: improves readability-it will be easy to read and make adjustment if required easily.<br>
-2:removes silly errors before execution and code review.<br>
-3:Makes code look like written by a single person.<br>
-4:Spreads awareness and ownership over code quality<br>
-5:Having more secure and performant code.<br>
+### Install
 
-## Install Linters
+Install this project with:
 
-You can find linters for most of the programming languages, e.g. Rubocop for Ruby or ESLint for JavaScript.
+- Open your command prompt or terminal and run.
+- git clone
 
-Also, there are many ways you can integrate a linter in your workflow:
+### Usage
 
--text editor plugin<br>
--GitHub Actions<br>
--GitHub apps<br>
+- I can help in building a product , feature or website Look through some of my work and experience! don’t hestiate to contact me.
 
-## Set up Linters
+### Run tests
 
-**Note:** The npm package manager is going to create a node_modules directory to install all of your dependencies. You shouldn't commit that directory. To avoid that, you can create a .gitignore file and add node_modules to it:
+To run tests, run the following command:
 
-# .gitignore
+- To run tests run :
+- npx hint .
+- npx stylelint "\*_/_.{css,scss}"
 
-node_modules/
+### Deployment
 
-## Web Hint
-
-This is a customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors.
-
-**NOTE:** If you are using Windows, make sure you initialize npm to create `package.json` file.
-
-```
-npm init -y
-```
-
-1. Run
-   ```
-   npm install --save-dev hint@7.x
-   ```
-   _how to use npm: (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)._
-2. Copy [.hintrc](.hintrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run
-   ```
-   npx hint .
-   ```
-5. Fix validation errors.
-
-### [Stylelint](https://stylelint.io/)
-
-A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
-
-1. Run
-
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-not sure how to use npm? Read this.
-
-2. Copy .stylelintrc.json to the root directory of your project.
-
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-
-If you think that change is necessary - open a Pull Request in this repository and let your code reviewer know about it. 4. Run npx stylelint "\*_/_.{css,scss}" on the root of your directory of your project.
-
-5. Fix linter errors.
-
-6. **IMPORTANT NOTE:** feel free to research auto-correct options for Stylelint if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+- Project is deployed using [GitHub Pages](https://pages.github.com/)
+- [🚀 Live Demo Link Provided Above ⬆️](#live-demo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
+
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Author1**
 
-- GitHub: (https://github.com/MariamOsman)
-- Twitter: (https://twitter.com/@Mariannaloveee)
-- LinkedIn: (https://http://www.linkedin.com/in/marian-isman-a57b75226)
+- GitHub: https://github.com/MariamOsman
+- Twitter: https://twitter.com/@Mariannaloveee
+- LinkedIn: https://http//www.linkedin.com/in/marian-isman-a57b75226
 
-## 🤝 Contributing <a name="contributing"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Features to be added:
 
-- [ ] **[new_feature_1]**
-      This project will not have any additional features.
+- [ ] **[Project: Application deploy]**
+- [ ] **[Project: Evaluate accessibility (pair programming)]**
+- [ ] **[Project: Mobile menu (pair programming)]**
+- [ ] **[Project: Details modal (pair programming)]**
+- [ ] **[Project: Validate contact form (pair programming)]**
+- [ ] **[Project: Preserve data in the browser (pair programming)]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
+## 🤝 Contributing <a name="contributing"></a>
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, kindly leave a comment below and share it with someone who enjoys coding! Coding is all about continuous learning and allowing yourself to be a beginner. Keep going!
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="Microverse Inc."></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I'm grateful to microverse for giving me every opportunity to grow into my full potential
+Major thanks to [Chandan Gupta](https://github.com/Chandan-devs-tech)
 
-<!-- FAQ (optional) -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ <a name="faq"></a>
-
-- **[Question_1]**
-  Do I have to use the vs code specifically?
-
-  - [Answer_1]
-    You can use any code editor of your chose.
-
-- **[Question_2]**
-  Where can I download node JS for installation?
-
-  - [Answer_2]
-  Node Js can be downloaded here- https://nodejs.org/en/download/
-  <!-- LICENSE -->
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+This project is [MIT]() licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
